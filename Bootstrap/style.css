@@ -1,0 +1,29 @@
+/*navigation bar*/
+
+nav {
+    border-bottom: solid grey 5px;
+}
+
+.navbar {
+    max-height: 13em;
+}
+
+.navbar-brand {
+    border: double white 2px;
+    color:whitesmoke !important;
+    font-size: 30px;
+    justify-content: space-between;
+    padding-left: 5%;
+    padding-right: 5%;
+}
+
+#navbarNavAltMarkup {
+    justify-content: flex-end;
+    word-spacing: 15%;
+}
+
+/*content*/
+
+.section-about {
+    margin-left: 15%;
+}
