@@ -23,7 +23,44 @@ nav {
 }
 
 /*content*/
+.container {
+    max-width: 65em;
+}
 
 .section-about {
-    margin-left: 15%;
+    margin-left: 12%;
+}
+
+/*contact*/
+.mb-4 {
+    margin: 10%;
+}
+
+
+/*portfolio*/
+.list-unstyled {
+    margin: 12%;
+}
+#p1, #p2 {
+    height:160px;
+    margin-left: -30%;
+    width: 240px;
+}
+
+/*media queries*/
+@media screen and (max width (768px) {
+    body {
+        background-color: bisque;
+        height: auto;
+        width: auto;
+    }
+    .mr-3 {
+        height: auto;
+        width: auto;
+    }
+    #p1, #p2 {
+        display: flex;
+        height: auto;
+        width: auto;
+    }
 }
